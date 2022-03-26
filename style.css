@@ -23,12 +23,12 @@ img {
   --header-height: 4.5rem;
 
   /* colors */
-  --hue: 205;
+  --hue: 150;
   /* HSL color mode */
   --base-color: hsl(var(--hue) 36% 57%);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
+  --title-color: hsl(var(--hue) 90% 10%);
   --text-color: hsl(0 0% 46%);
   --text-color-light: hsl(0 0% 98%);
   --body-color: hsl(0 0% 98%);
@@ -49,15 +49,16 @@ html {
 body {
   font: 400 1rem var(--body-font);
   color: var(--text-color);
-  background: var(--body-color);
+  background: #121212;
   -webkit-font-smoothing: antialiased;
 }
 
 .title {
   font: 700 var(--title-font-size) var(--title-font);
-  color: var(--title-color);
+  color: #fff;
   -webkit-font-smoothing: auto;
 }
+
 
 .button {
   background-color: var(--base-color);
@@ -125,7 +126,7 @@ body {
 }
 
 #header {
-  border-bottom: 1px solid #e4e4e4;
+  border-bottom: 0.2px solid #e4e4e4;
   margin-bottom: 2rem;
   display: flex;
 
@@ -133,7 +134,8 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
-  background-color: var(--body-color);
+  background-color: #111111;
+  
   width: 100%;
 }
 
@@ -307,7 +309,7 @@ nav.show div.icon-close {
 
 /*====  ABOUT ============================ */
 #about {
-  background: white;
+  background: #121212;
 }
 
 #about .container {
